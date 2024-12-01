@@ -24,7 +24,7 @@ convolutional_block_output2 = [[[[0.       , 2.7823157, 0.       , 0.       , 1.
   [[0.9830525,  0.,         1.6564476,  0.9591365,  0.,         0.,        ],
    [2.5460882,  0.,         1.1291425,  0.,         0.,         0.,        ]]]]
 
-
+## Resnet50 output layer summery
 ResNet50_summary =[['InputLayer', (None, 64, 64, 3), 0],
 ['ZeroPadding2D', (None, 70, 70, 3), 0, ((3, 3), (3, 3))],
 ['Conv2D', (None, 32, 32, 64), 9472, 'valid', 'linear', 'GlorotUniform'],
